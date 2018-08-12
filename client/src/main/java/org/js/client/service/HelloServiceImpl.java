@@ -1,8 +1,6 @@
 package org.js.client.service;
 
 import org.js.client.grpc.SimpleClient;
-import org.js.client.grpc.SimpleGrpc;
-import org.js.client.grpc.SimpleOuterClass;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

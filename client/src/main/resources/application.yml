@@ -1,5 +1,3 @@
-server:
-  port: 8090
 gRPC:
   host: 127.0.0.1
   port: 50051
