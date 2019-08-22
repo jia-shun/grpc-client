@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * @date 2018/8/10 22:22
  */
 @Service
-public class HelloServiceImpl implements IHelloService{
+public class HelloServiceImpl implements IHelloService {
     private Logger logger = LoggerFactory.getLogger(HelloServiceImpl.class);
     @Value("${gRPC.host}")
     private String host;

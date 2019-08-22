@@ -8,6 +8,8 @@ import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
 /**
+ * @author JiaShun
+ * @date 2018/8/11 12:11
  */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler (version 1.13.1)",
@@ -18,7 +20,9 @@ public final class SimpleGrpc {
 
   public static final String SERVICE_NAME = "Simple";
 
-  // Static method descriptors that strictly reflect the proto.
+  /**
+   * Static method descriptors that strictly reflect the proto.
+   */
   private static volatile io.grpc.MethodDescriptor<SimpleOuterClass.HelloRequest,
       SimpleOuterClass.HelloReplay> getSayHelloMethod;
 
